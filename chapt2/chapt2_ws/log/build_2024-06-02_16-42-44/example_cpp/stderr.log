@@ -1,0 +1,30 @@
+[01m[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:13:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+   13 |     rclcpp[01;31m[K;[m[K;soin(node):
+      |           [01;31m[K^[m[K
+[01m[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:13:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksoin[m[K’ was not declared in this scope; did you mean ‘[01m[Ksin[m[K’?
+   13 |     rclcpp;;[01;31m[Ksoin[m[K(node):
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Ksin[m[K
+[01m[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kshutdown[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::shutdown[m[K’?
+   15 |     rclcpp;;[01;31m[Kshutdown[m[K();
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[Krclcpp::shutdown[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:194:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::shutdown[m[K’ declared here
+  194 | [01;36m[Kshutdown[m[K(
+      | [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/node_01.dir/build.make:76: CMakeFiles/node_01.dir/src/node_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_01.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

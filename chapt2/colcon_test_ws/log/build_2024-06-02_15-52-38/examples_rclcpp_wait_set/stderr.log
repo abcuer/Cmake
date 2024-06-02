@@ -1,0 +1,35 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wait_set_topics_and_timer.dir/build.make:76: CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/wait_set_topics_and_timer.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wait_set_random_order.dir/build.make:76: CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:367: CMakeFiles/wait_set_random_order.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wait_set.dir/build.make:76: CMakeFiles/wait_set.dir/src/wait_set.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:263: CMakeFiles/wait_set.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/wait_set_listener.dir/build.make:76: CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/wait_set_listener.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:211: CMakeFiles/listener.dir/all] Error 2
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/executor_random_order.dir/build.make:76: CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:393: CMakeFiles/executor_random_order.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/wait_set_topics_with_different_rates.dir/build.make:76: CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:419: CMakeFiles/wait_set_topics_with_different_rates.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/static_wait_set.dir/build.make:76: CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
+gmake[2]: *** [CMakeFiles/wait_set_talker.dir/build.make:76: CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/thread_safe_wait_set.dir/build.make:76: CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o] Interrupt

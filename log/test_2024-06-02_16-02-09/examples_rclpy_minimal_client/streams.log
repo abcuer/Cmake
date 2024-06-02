@@ -1,0 +1,22 @@
+[0.945s] Invoking command in '/home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/services/minimal_client': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.937s] [1m============================= test session starts ==============================[0m
+[1.937s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.937s] cachedir: /home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/.pytest_cache
+[1.937s] rootdir: /home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy, configfile: pytest.ini
+[1.937s] plugins: ament-flake8-0.12.11, ament-xmllint-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, launch-testing-1.0.6, ament-lint-0.12.11, colcon-core-0.16.1, cov-3.0.0
+[1.937s] [1mcollecting ... [0m[1m
+[1.937s] collected 3 items                                                              [0m
+[1.937s] 
+[1.937s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.943s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.978s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.979s] 
+[1.979s] [33m=============================== warnings summary ===============================[0m
+[1.979s] services/minimal_client/test/test_flake8.py::test_flake8
+[1.979s] services/minimal_client/test/test_flake8.py::test_flake8
+[1.979s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.979s] 
+[1.979s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.979s] - generated xml file: /home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/pytest.xml -
+[1.979s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.63s[0m[33m =========================[0m
+[2.136s] Invoked command in '/home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/services/minimal_client' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/pytest.xml --junit-prefix=examples_rclpy_minimal_client -o cache_dir=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

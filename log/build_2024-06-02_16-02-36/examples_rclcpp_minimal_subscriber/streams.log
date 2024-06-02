@@ -1,0 +1,102 @@
+[0.087s] Invoking command in '/home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/install/examples_rclcpp_minimal_subscriber
+[6.976s] -- The C compiler identification is GNU 11.4.0
+[6.976s] -- The CXX compiler identification is GNU 11.4.0
+[6.976s] -- Detecting C compiler ABI info
+[6.976s] -- Detecting C compiler ABI info - done
+[6.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.976s] -- Detecting C compile features
+[6.977s] -- Detecting C compile features - done
+[6.977s] -- Detecting CXX compiler ABI info
+[6.977s] -- Detecting CXX compiler ABI info - done
+[6.977s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.977s] -- Detecting CXX compile features
+[6.977s] -- Detecting CXX compile features - done
+[6.977s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.977s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[6.977s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.977s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[6.977s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.977s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.977s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.977s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.978s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.978s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.978s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[6.978s] -- Found FastRTPS: /opt/ros/humble/include
+[6.978s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.978s] -- Found Threads: TRUE
+[7.359s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[7.649s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.955s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.957s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.957s] -- Configured cppcheck include dirs: 
+[7.958s] -- Configured cppcheck exclude dirs and/or files: 
+[7.959s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.963s] -- Configured cpplint exclude dirs and/or files: 
+[7.966s] -- Added test 'lint_cmake' to check CMake code style
+[7.968s] -- Added test 'uncrustify' to check C / C++ code style
+[7.968s] -- Configured uncrustify additional arguments: 
+[7.970s] -- Added test 'xmllint' to check XML markup files
+[7.975s] -- Configuring done (7.9s)
+[8.132s] -- Generating done (0.1s)
+[8.140s] -- Build files have been written to: /home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber
+[8.190s] Invoked command in '/home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/install/examples_rclcpp_minimal_subscriber
+[8.191s] Invoking command in '/home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber -- -j12 -l12
+[253.390s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.390s] compilation terminated.
+[253.395s] gmake[2]: *** [CMakeFiles/wait_set_subscriber_library.dir/build.make:76: CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o] Error 1
+[253.396s] gmake[2]: *** Waiting for unfinished jobs....
+[253.396s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.396s] compilation terminated.
+[253.396s] gmake[2]: *** [CMakeFiles/static_wait_set_subscriber.dir/build.make:76: CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o] Error 1
+[253.396s] gmake[1]: *** [CMakeFiles/Makefile2:391: CMakeFiles/static_wait_set_subscriber.dir/all] Error 2
+[253.396s] gmake[1]: *** Waiting for unfinished jobs....
+[253.397s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.397s] compilation terminated.
+[253.397s] gmake[2]: *** [CMakeFiles/wait_set_subscriber_library.dir/build.make:90: CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o] Error 1
+[253.397s] gmake[1]: *** [CMakeFiles/Makefile2:339: CMakeFiles/wait_set_subscriber_library.dir/all] Error 2
+[253.397s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.397s] compilation terminated.
+[253.397s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_topic_statistics.dir/build.make:76: CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o] Error 1
+[253.398s] gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/subscriber_member_function_with_topic_statistics.dir/all] Error 2
+[253.405s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.406s] compilation terminated.
+[253.406s] gmake[2]: *** [CMakeFiles/subscriber_not_composable.dir/build.make:76: CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o] Error 1
+[253.406s] gmake[1]: *** [CMakeFiles/Makefile2:287: CMakeFiles/subscriber_not_composable.dir/all] Error 2
+[253.406s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.406s] compilation terminated.
+[253.406s] gmake[2]: *** [CMakeFiles/time_triggered_wait_set_subscriber.dir/build.make:76: CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o] Error 1
+[253.407s] gmake[1]: *** [CMakeFiles/Makefile2:417: CMakeFiles/time_triggered_wait_set_subscriber.dir/all] Error 2
+[253.407s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.407s] compilation terminated.
+[253.407s] gmake[2]: *** [CMakeFiles/wait_set_subscriber.dir/build.make:76: CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o] Error 1
+[253.408s] gmake[1]: *** [CMakeFiles/Makefile2:365: CMakeFiles/wait_set_subscriber.dir/all] Error 2
+[253.410s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[253.412s] compilation terminated.
+[253.412s] gmake[2]: *** [CMakeFiles/subscriber_lambda.dir/build.make:76: CMakeFiles/subscriber_lambda.dir/lambda.cpp.o] Error 1
+[253.412s] gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/subscriber_lambda.dir/all] Error 2
+[253.412s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/build.make:76: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o] Interrupt
+[253.412s] gmake[2]: *** [CMakeFiles/subscriber_member_function.dir/build.make:76: CMakeFiles/subscriber_member_function.dir/member_function.cpp.o] Interrupt
+[253.412s] gmake[2]: *** [CMakeFiles/subscriber_content_filtering.dir/build.make:76: CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o] Interrupt
+[253.412s] gmake[2]: *** [CMakeFiles/subscriber_member_function_with_type_adapter.dir/build.make:76: CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o] Interrupt
+[253.412s] gmake[1]: *** [CMakeFiles/Makefile2:261: CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/all] Interrupt
+[253.413s] gmake[1]: *** [CMakeFiles/Makefile2:313: CMakeFiles/subscriber_content_filtering.dir/all] Interrupt
+[253.413s] gmake[1]: *** [CMakeFiles/Makefile2:183: CMakeFiles/subscriber_member_function.dir/all] Interrupt
+[253.415s] gmake[1]: *** [CMakeFiles/Makefile2:235: CMakeFiles/subscriber_member_function_with_type_adapter.dir/all] Interrupt
+[253.415s] gmake: *** [Makefile:146: all] Interrupt
+[253.453s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[253.454s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[253.455s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[253.455s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[253.455s] [ 20%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[253.455s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[253.455s] [ 29%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[253.455s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[253.455s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[253.455s] [ 41%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[253.455s] [ 45%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[253.455s] [ 50%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[253.527s] Invoked command in '/home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/build/examples_rclcpp_minimal_subscriber -- -j12 -l12

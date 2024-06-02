@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_01[0m
+[100%] Built target node_01
+-- Install configuration: ""
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/share/example_cpp/package.xml
+-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01
+-- Set non-toolchain portion of runtime path of "/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""

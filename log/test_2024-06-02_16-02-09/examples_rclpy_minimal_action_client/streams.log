@@ -1,0 +1,22 @@
+[0.445s] Invoking command in '/home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_client': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest
+[1.935s] [1m============================= test session starts ==============================[0m
+[1.935s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[1.935s] cachedir: /home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/.pytest_cache
+[1.935s] rootdir: /home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy, configfile: pytest.ini
+[1.935s] plugins: ament-flake8-0.12.11, ament-xmllint-0.12.11, ament-copyright-0.12.11, launch-testing-ros-0.19.7, ament-pep257-0.12.11, launch-testing-1.0.6, ament-lint-0.12.11, colcon-core-0.16.1, cov-3.0.0
+[1.935s] [1mcollecting ... [0m[1m
+[1.935s] collected 3 items                                                              [0m
+[1.935s] 
+[1.935s] test/test_copyright.py [32m.[0m[32m                                                 [ 33%][0m
+[1.935s] test/test_flake8.py [32m.[0m[33m                                                    [ 66%][0m
+[1.935s] test/test_pep257.py [32m.[0m[33m                                                    [100%][0m
+[1.935s] - generated xml file: /home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/pytest.xml -
+[1.935s] [33m======================== [32m3 passed[0m, [33m[1m2 warnings[0m[33m in 0.56s[0m[33m =========================[0m
+[1.935s] 
+[1.936s] [33m=============================== warnings summary ===============================[0m
+[1.936s] actions/minimal_action_client/test/test_flake8.py::test_flake8
+[1.936s] actions/minimal_action_client/test/test_flake8.py::test_flake8
+[1.936s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[1.936s] 
+[1.936s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1.950s] Invoked command in '/home/nhmgs/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTEST_ADDOPTS=--tb=short --junit-xml=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/pytest.xml --junit-prefix=examples_rclpy_minimal_action_client -o cache_dir=/home/nhmgs/d2lros2/build/examples_rclpy_minimal_action_client/.pytest_cache PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m pytest

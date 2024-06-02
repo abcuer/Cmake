@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (example) JobQueued: {'identifier': 'example', 'dependencies': OrderedDict()}
+[0.000213] (example_cpp) JobQueued: {'identifier': 'example_cpp', 'dependencies': OrderedDict()}
+[0.000638] (example) JobStarted: {'identifier': 'example'}
+[0.017534] (example_cpp) JobStarted: {'identifier': 'example_cpp'}
+[0.022682] (example) JobProgress: {'identifier': 'example', 'progress': 'cmake'}
+[0.023237] (example) Command: {'cmd': ['/usr/bin/cmake', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example', '-DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example'], 'cwd': '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nhmgs'), ('GIT_ASKPASS', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nhmgs'), ('OLDPWD', '/home/nhmgs/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bb47a547-3503-45df-b7fa-c5ce3c1774d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nhmgs'), ('NAME', 'hp-jl8'), ('WSL_INTEROP', '/run/WSL/65311_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/nhmgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Application/Work/Program/Anaconda3:/mnt/d/Application/Work/Program/Anaconda3/Scripts:/mnt/d/Application/Work/Program/Anaconda3/Library/mingw-w64/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/usr/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/bin:/mnt/d/Application/Work/Program/Git/cmd:/mnt/c/Users/fascinating_sea/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fascinating_sea/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ffe0bf4e0f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031145] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'cmake'}
+[0.031830] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp', '-DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp'], 'cwd': '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nhmgs'), ('GIT_ASKPASS', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nhmgs'), ('OLDPWD', '/home/nhmgs/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bb47a547-3503-45df-b7fa-c5ce3c1774d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nhmgs'), ('NAME', 'hp-jl8'), ('WSL_INTEROP', '/run/WSL/65311_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/nhmgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Application/Work/Program/Anaconda3:/mnt/d/Application/Work/Program/Anaconda3/Scripts:/mnt/d/Application/Work/Program/Anaconda3/Library/mingw-w64/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/usr/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/bin:/mnt/d/Application/Work/Program/Git/cmd:/mnt/c/Users/fascinating_sea/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fascinating_sea/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ffe0bf4e0f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099368] (-) TimerEvent: {}
+[0.199707] (-) TimerEvent: {}
+[0.218952] (example) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.221238] (example_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299843] (-) TimerEvent: {}
+[0.400246] (-) TimerEvent: {}
+[0.500610] (-) TimerEvent: {}
+[0.593729] (example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.593962] (example_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.600670] (-) TimerEvent: {}
+[0.700962] (-) TimerEvent: {}
+[0.801274] (-) TimerEvent: {}
+[0.881231] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.881442] (example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.901401] (-) TimerEvent: {}
+[1.001937] (-) TimerEvent: {}
+[1.012499] (example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.017419] (example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.032496] (example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.033989] (example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.036692] (example_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.036777] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.036960] (example_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.038243] (example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.041934] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.046543] (example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.102018] (-) TimerEvent: {}
+[1.161513] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.163465] (example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.178576] (example_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.178939] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.179145] (example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.179372] (example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.179621] (example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.179669] (example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.183953] (example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.186675] (example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.202100] (-) TimerEvent: {}
+[1.302434] (-) TimerEvent: {}
+[1.337269] (example) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.339119] (example_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[1.402585] (-) TimerEvent: {}
+[1.480180] (example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.480491] (example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.503004] (-) TimerEvent: {}
+[1.603369] (-) TimerEvent: {}
+[1.643042] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.643436] (example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.653019] (example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.653302] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.681580] (example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.681904] (example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.703446] (-) TimerEvent: {}
+[1.722354] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.722705] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.756502] (example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.756882] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803584] (-) TimerEvent: {}
+[1.903895] (example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.907002] (-) TimerEvent: {}
+[1.907150] (example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.921742] (example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.922068] (example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.007140] (-) TimerEvent: {}
+[2.107517] (-) TimerEvent: {}
+[2.207908] (-) TimerEvent: {}
+[2.308423] (-) TimerEvent: {}
+[2.408878] (-) TimerEvent: {}
+[2.487520] (example_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.487947] (example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[2.508948] (-) TimerEvent: {}
+[2.609322] (-) TimerEvent: {}
+[2.709722] (-) TimerEvent: {}
+[2.810168] (-) TimerEvent: {}
+[2.910511] (-) TimerEvent: {}
+[2.967636] (example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[2.967947] (example_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[3.010590] (-) TimerEvent: {}
+[3.110996] (-) TimerEvent: {}
+[3.211371] (-) TimerEvent: {}
+[3.311824] (-) TimerEvent: {}
+[3.412206] (-) TimerEvent: {}
+[3.512574] (-) TimerEvent: {}
+[3.612940] (-) TimerEvent: {}
+[3.713311] (-) TimerEvent: {}
+[3.813702] (-) TimerEvent: {}
+[3.918392] (-) TimerEvent: {}
+[4.018710] (-) TimerEvent: {}
+[4.120404] (-) TimerEvent: {}
+[4.137963] (example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.213741] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.220489] (-) TimerEvent: {}
+[4.243563] (example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.258397] (example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.320560] (-) TimerEvent: {}
+[4.380437] (example) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.380627] (example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.381241] (example_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[4.381391] (example) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[4.420613] (-) TimerEvent: {}
+[4.520931] (-) TimerEvent: {}
+[4.621218] (-) TimerEvent: {}
+[4.643690] (example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.646537] (example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.721320] (-) TimerEvent: {}
+[4.782211] (example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.782369] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.782410] (example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.783056] (example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.783368] (example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.787126] (example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.787426] (example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.788819] (example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.789141] (example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.797031] (example) StdoutLine: {'line': b'-- Configuring done (4.8s)\n'}
+[4.798007] (example_cpp) StdoutLine: {'line': b'-- Configuring done (4.8s)\n'}
+[4.809508] (example) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.812020] (example) StdoutLine: {'line': b'-- Build files have been written to: /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example\n'}
+[4.821425] (-) TimerEvent: {}
+[4.827020] (example_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.829458] (example) CommandEnded: {'returncode': 0}
+[4.829836] (example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp\n'}
+[4.830335] (example) JobProgress: {'identifier': 'example', 'progress': 'build'}
+[4.831844] (example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example', '--', '-j12', '-l12'], 'cwd': '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nhmgs'), ('GIT_ASKPASS', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nhmgs'), ('OLDPWD', '/home/nhmgs/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bb47a547-3503-45df-b7fa-c5ce3c1774d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nhmgs'), ('NAME', 'hp-jl8'), ('WSL_INTEROP', '/run/WSL/65311_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/nhmgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Application/Work/Program/Anaconda3:/mnt/d/Application/Work/Program/Anaconda3/Scripts:/mnt/d/Application/Work/Program/Anaconda3/Library/mingw-w64/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/usr/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/bin:/mnt/d/Application/Work/Program/Git/cmd:/mnt/c/Users/fascinating_sea/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fascinating_sea/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ffe0bf4e0f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.842988] (example_cpp) CommandEnded: {'returncode': 0}
+[4.847118] (example_cpp) JobProgress: {'identifier': 'example_cpp', 'progress': 'build'}
+[4.848954] (example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp', '--', '-j12', '-l12'], 'cwd': '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nhmgs'), ('GIT_ASKPASS', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nhmgs'), ('OLDPWD', '/home/nhmgs/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bb47a547-3503-45df-b7fa-c5ce3c1774d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nhmgs'), ('NAME', 'hp-jl8'), ('WSL_INTEROP', '/run/WSL/65311_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/nhmgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Application/Work/Program/Anaconda3:/mnt/d/Application/Work/Program/Anaconda3/Scripts:/mnt/d/Application/Work/Program/Anaconda3/Library/mingw-w64/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/usr/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/bin:/mnt/d/Application/Work/Program/Git/cmd:/mnt/c/Users/fascinating_sea/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fascinating_sea/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ffe0bf4e0f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.870914] (example) CommandEnded: {'returncode': 0}
+[4.880516] (example_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o\x1b[0m\n'}
+[4.887084] (example) JobProgress: {'identifier': 'example', 'progress': 'install'}
+[4.889582] (example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example'], 'cwd': '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nhmgs'), ('GIT_ASKPASS', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nhmgs'), ('OLDPWD', '/home/nhmgs/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bb47a547-3503-45df-b7fa-c5ce3c1774d6.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nhmgs'), ('NAME', 'hp-jl8'), ('WSL_INTEROP', '/run/WSL/65311_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/nhmgs/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/home/nhmgs/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/d/Program Files/Microsoft VS Code/bin:/mnt/d/Application/Work/Program/Anaconda3:/mnt/d/Application/Work/Program/Anaconda3/Scripts:/mnt/d/Application/Work/Program/Anaconda3/Library/mingw-w64/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/usr/bin:/mnt/d/Application/Work/Program/Anaconda3/Library/bin:/mnt/d/Application/Work/Program/Git/cmd:/mnt/c/Users/fascinating_sea/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/fascinating_sea/.dotnet/tools:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ffe0bf4e0f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.899617] (example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.903073] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/package_run_dependencies/example\n'}
+[4.903466] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/parent_prefix_path/example\n'}
+[4.911041] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.sh\n'}
+[4.911643] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.dsv\n'}
+[4.911981] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.sh\n'}
+[4.912100] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.dsv\n'}
+[4.912336] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.bash\n'}
+[4.913139] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.sh\n'}
+[4.913622] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.zsh\n'}
+[4.918615] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.dsv\n'}
+[4.918938] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.dsv\n'}
+[4.919297] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/packages/example\n'}
+[4.920026] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig.cmake\n'}
+[4.920499] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig-version.cmake\n'}
+[4.920578] (example) StdoutLine: {'line': b'-- Installing: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.xml\n'}
+[4.920653] (example) CommandEnded: {'returncode': 0}
+[4.921570] (-) TimerEvent: {}
+[4.970748] (example) JobEnded: {'identifier': 'example', 'rc': 0}
+[5.021645] (-) TimerEvent: {}
+[5.121921] (-) TimerEvent: {}
+[5.222171] (-) TimerEvent: {}
+[5.322417] (-) TimerEvent: {}
+[5.422663] (-) TimerEvent: {}
+[5.522907] (-) TimerEvent: {}
+[5.623162] (-) TimerEvent: {}
+[5.723414] (-) TimerEvent: {}
+[5.823685] (-) TimerEvent: {}
+[5.923946] (-) TimerEvent: {}
+[6.028537] (-) TimerEvent: {}
+[6.128795] (-) TimerEvent: {}
+[6.229080] (-) TimerEvent: {}
+[6.329315] (-) TimerEvent: {}
+[6.429571] (-) TimerEvent: {}
+[6.529814] (-) TimerEvent: {}
+[6.630069] (-) TimerEvent: {}
+[6.730311] (-) TimerEvent: {}
+[6.830693] (-) TimerEvent: {}
+[6.930951] (-) TimerEvent: {}
+[7.031219] (-) TimerEvent: {}
+[7.131470] (-) TimerEvent: {}
+[7.231724] (-) TimerEvent: {}
+[7.331997] (-) TimerEvent: {}
+[7.432274] (-) TimerEvent: {}
+[7.532538] (-) TimerEvent: {}
+[7.632804] (-) TimerEvent: {}
+[7.733056] (-) TimerEvent: {}
+[7.777907] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.778080] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:13:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[7.778123] (example_cpp) StderrLine: {'line': b'   13 |     rclcpp\x1b[01;31m\x1b[K;\x1b[m\x1b[K;soin(node):\n'}
+[7.778154] (example_cpp) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.780743] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:13:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksoin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksin\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.780931] (example_cpp) StderrLine: {'line': b'   13 |     rclcpp;;\x1b[01;31m\x1b[Ksoin\x1b[m\x1b[K(node):\n'}
+[7.780970] (example_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.781001] (example_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Ksin\x1b[m\x1b[K\n'}
+[7.781298] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:15:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kshutdown\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::shutdown\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.781349] (example_cpp) StderrLine: {'line': b'   15 |     rclcpp;;\x1b[01;31m\x1b[Kshutdown\x1b[m\x1b[K();\n'}
+[7.781380] (example_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.781418] (example_cpp) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krclcpp::shutdown\x1b[m\x1b[K\n'}
+[7.781542] (example_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:25\x1b[m\x1b[K,\n'}
+[7.781591] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.781622] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.781652] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.781681] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.781708] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.781735] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.781770] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.781796] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.781823] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.781849] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.781875] (example_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp/src/node_01.cpp:1\x1b[m\x1b[K:\n'}
+[7.781901] (example_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:194:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::shutdown\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.781930] (example_cpp) StderrLine: {'line': b'  194 | \x1b[01;36m\x1b[Kshutdown\x1b[m\x1b[K(\n'}
+[7.781957] (example_cpp) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.833107] (-) TimerEvent: {}
+[7.933347] (-) TimerEvent: {}
+[8.033587] (-) TimerEvent: {}
+[8.136554] (-) TimerEvent: {}
+[8.236800] (-) TimerEvent: {}
+[8.273985] (example_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/node_01.dir/build.make:76: CMakeFiles/node_01.dir/src/node_01.cpp.o] Error 1\n'}
+[8.279461] (example_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/node_01.dir/all] Error 2\n'}
+[8.280166] (example_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.280462] (example_cpp) CommandEnded: {'returncode': 2}
+[8.308513] (example_cpp) JobEnded: {'identifier': 'example_cpp', 'rc': 2}
+[8.318986] (-) EventReactorShutdown: {}

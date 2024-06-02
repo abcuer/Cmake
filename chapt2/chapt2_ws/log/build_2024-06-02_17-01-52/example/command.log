@@ -1,0 +1,4 @@
+Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example -- -j12 -l12
+Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example -- -j12 -l12
+Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example
+Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example

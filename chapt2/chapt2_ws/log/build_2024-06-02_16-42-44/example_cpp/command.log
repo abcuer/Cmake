@@ -1,0 +1,4 @@
+Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp
+Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nhmgs/d2lros2/chapt2/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example_cpp
+Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp -- -j12 -l12
+Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example_cpp -- -j12 -l12

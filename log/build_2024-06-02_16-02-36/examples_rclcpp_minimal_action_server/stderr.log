@@ -1,0 +1,8 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server_not_composable.dir/build.make:76: CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/action_server_not_composable.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/action_server_member_functions.dir/build.make:76: CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server_member_functions.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

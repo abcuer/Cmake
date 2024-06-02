@@ -1,0 +1,15 @@
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/package_run_dependencies/example
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/parent_prefix_path/example
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.sh
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.dsv
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.sh
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.dsv
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.bash
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.sh
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.zsh
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.dsv
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.dsv
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/packages/example
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig.cmake
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig-version.cmake
+/home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.xml

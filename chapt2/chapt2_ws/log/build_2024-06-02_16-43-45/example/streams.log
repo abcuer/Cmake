@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example -- -j12 -l12
+[0.044s] Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example -- -j12 -l12
+[0.071s] Invoking command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example
+[0.081s] -- Install configuration: ""
+[0.081s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/package_run_dependencies/example
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/parent_prefix_path/example
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.sh
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.sh
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/environment/path.dsv
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.bash
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.sh
+[0.082s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.zsh
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/local_setup.dsv
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.dsv
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/ament_index/resource_index/packages/example
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig.cmake
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/cmake/exampleConfig-version.cmake
+[0.083s] -- Up-to-date: /home/nhmgs/d2lros2/chapt2/chapt2_ws/install/example/share/example/package.xml
+[0.083s] Invoked command in '/home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nhmgs/d2lros2/chapt2/chapt2_ws/build/example
